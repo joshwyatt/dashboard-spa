@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import { TRANSIT_API } from '@databraid/transit-widget/lib';
+import { TRANSIT_API } from '@databraid/transit-widget/lib/App';
 import { GITHUB_API } from '@databraid/github-widget/lib';
 import rootReducer from './reducers';
 
