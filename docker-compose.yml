@@ -12,6 +12,7 @@ services:
       - postgres
     volumes:
       - ./google-credentials:/app/google-credentials
+      - ./.env.slack-api:/app/.env
 
   transit-api:
     image: databraiddb/transit-api:latest
