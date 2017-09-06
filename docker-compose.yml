@@ -29,6 +29,8 @@ services:
       - 8002:8000
     environment:
       - PORT=8000
+    volumes:
+      - ./.env.github-api:/app/.env
 
   postgres:
     image: databraiddb/slack-test-postgres:latest
