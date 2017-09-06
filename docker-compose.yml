@@ -20,6 +20,8 @@ services:
       - 8001:8000
     environment:
       - PORT=8000
+    volumes:
+      - ./.env.transit-api:/app/.env
 
   github-api:
     image: databraiddb/github-api:latest
