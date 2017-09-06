@@ -117,3 +117,5 @@ const widgets = (state = initialState, action) => {
 const rootReducer = combineReducers({
   widgets,
 });
+
+export default rootReducer;
